@@ -1,0 +1,95 @@
+#include <Servo.h>
+
+
+class Sweeper
+{
+  Servo servo;
+  int pos;
+  int increment;
+  int updateInterval;
+  unsigned long lastUpdate;
+
+public:
+
+  Sweeper(int interval)
+  {
+    updateInterval = interval;
+    increment = 1;
+    pos = 0;
+    lastUpdate = 0;
+  }
+
+  void Attach(int pin)
+  {
+    servo.attach(pin);
+  }
+
+  void SetInterval(int interval)
+  {
+    updateInterval = interval;
+  }
+
+  void Update()
+  {
+    if ((millis() - lastUpdate) > updateInterval)
+    {
+      lastUpdate = millis();
+
+      pos += increment;
+      servo.write(pos);
+
+      if (pos >= 180 || pos <= 0)
+      {
+        increment = -increment;
+      }
+    }
+  }
+};
+
+
+// Pin Setup
+
+#define SERVO_PIN   9
+#define BUTTON_PIN  2
+#define POT_PIN     A0   // Potentiometer on A0
+
+
+Sweeper sweeper(20);
+
+
+void setup()
+{
+  Serial.begin(9600);
+
+  // Button uses internal pullup
+  pinMode(BUTTON_PIN, INPUT_PULLUP);
+
+  // Attach servo
+  sweeper.Attach(SERVO_PIN);
+}
+
+
+void loop()
+{
+  bool buttonPressed = (digitalRead(BUTTON_PIN) == LOW);
+
+  int potValue = analogRead(POT_PIN);
+
+  int speed = map(potValue, 0, 1023, 5, 50);
+
+  // Set sweep speed
+  sweeper.SetInterval(speed);
+
+  if (buttonPressed)
+  {
+    sweeper.Update();
+  }
+
+  // Debug info
+  Serial.print("Button: ");
+  Serial.print(buttonPressed);
+  Serial.print("  Pot: ");
+  Serial.print(potValue);
+  Serial.print("  Speed: ");
+  Serial.println(speed);
+}
