@@ -82,3 +82,8 @@ Thinking about it
 This idea is great since it lets you code, build, and be creative all at the same time. It makes me think about how games work in the actual world, not just on a screen, like P5.js. I think it would be really fun and interesting to make a real-life Pac-Man game, even though this is only a rough idea for now.
 
 The diary entry is only for ideas, and my final project might be different, but here is where I'm starting.
+
+[image](media/pacmansketch.HEIC)
+
+[image](media/Moodboard.pdf)
+
