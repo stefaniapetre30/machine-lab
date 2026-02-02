@@ -8,6 +8,8 @@ I also had some trouble with the potentiometer and pushbutton. The Serial Monito
 
 I utilized the Serial Monitor to debug my project, tested each part on its own, checked my wiring to my schematic, and uploaded basic test scripts. These strategies helped me detect and rectify mistakes. This project taught me the importance of careful wiring, testing one part at a time, and staying patient when solving technical problems.
 
+![image](sketch.png)
+
 JOURNAL HOMEWORK - 3/02/2026
 
 1.  The boat is the first module, starting from the left. The boat looks fine and the structure is still there, but it isn't moving at all. I think it was supposed to move or rock a little. The first thing I would do if I could get into the lab is check to see if the motor is getting power. I would try running a very simple Arduino sketch to see if the motor works. I would also check the wiring and pin assignments in the code again. I can't physically test anything right now, and I don't have clear documentation of how it was wired, which makes it hard to debug. It would be a lot easier if I had diagrams or comments in the code.
@@ -23,7 +25,7 @@ The Ferris wheel on the right is the last module. The wheel is put together and 
 If I were debugging this project today, I would start by separating each module and testing it with very simple Arduino programs. Before I moved on to more complicated logic, I would check the power supplies, wiring, and motor drivers. You could also use the serial monitor more often to make sure that the code is running correctly.
 I was thinking about using Arduino and mechanical pieces instead of a screen to make a real-life version of Pac-Man for my project. I don't think this is okay, though. This is still a relatively new notion, and nothing is set in stone yet.
 
-
+![image](IMG_0777.jpg)
 
 
 2. I chose Pac-Man since it's a famous game that almost everyone recognizes. It appears like it might really happen that you could go through a maze and pick up dots. There are also obvious regulations, including not going near ghosts and trying to get everything. This makes it simple to turn into an actual game.
@@ -111,5 +113,5 @@ This idea is great since it lets you code, build, and be creative all at the sam
 
 The diary entry is only for ideas, and my final project might be different, but here is where I'm starting.
 
-![image](sketch.png)
-
+![image](pacmansketch.png)
+![image](moodboard.png)
