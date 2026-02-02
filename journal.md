@@ -111,5 +111,5 @@ This idea is great since it lets you code, build, and be creative all at the sam
 
 The diary entry is only for ideas, and my final project might be different, but here is where I'm starting.
 
-[![Alt text](image_source "pacman sketch.HEIC")
+![image](sketch.png)
 
