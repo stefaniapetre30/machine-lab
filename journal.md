@@ -115,3 +115,15 @@ The diary entry is only for ideas, and my final project might be different, but 
 
 ![image](pacmansketch.png)
 ![image](moodboard.png)
+
+JOURNAL HOMEWORK - 4/02/2026
+
+After I built my initial design and looked more closely at different mechanical systems, I noticed that I had already figured out how to build most of the important parts of my project, like the maze, the controls, the sensors, and the Arduino setup. But now that I know how the movement mechanics function, I know for sure that I need motors to make Pac-Man move smoothly and properly.
+
+At first, I thought it would be easy to maneuver Pac-Man about the board, but now I see that it's much harder than I imagined. When employing magnets, rails, or an X-Y platform, you need to be very careful when creating and programming. The motors need to be strong, precise, and in the appropriate spot so that Pac-Man doesn't get trapped or stray off course.
+
+I also noticed that it will be hard to operate more than one motor at once, like for Pac-Man and maybe the ghosts. I need to learn how to develop code that makes sure everything travels in the appropriate direction and at the right pace, as well as how to use motor drivers. If something is even a little bit wrong, the whole system might not work well.
+
+This makes the project more difficult, but it also makes it more entertaining. I now realize that this project isn't just about developing a game; it's also about figuring things out, building things, and testing them. Before I add any more features, I need to focus on understanding how to use motors and design a movement system that works.
+
+This makes me think that Pac-Man is more complicated than I imagined at first. It also makes me feel more ready to start creating.
