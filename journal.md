@@ -136,38 +136,6 @@ This forced me to slow down and check every part of the system. I realized that 
 
 The final wiring was simple: pins 2 and 3 controlled the direction, pin 9 enabled the motor, and the Arduino shared a ground with the motor driver. The motor itself was powered by an external 12V supply and connected to the output terminals of the driver.
 
-Code used
-void setup() {
-  pinMode(2, OUTPUT);   
-  pinMode(3, OUTPUT);   
-  pinMode(9, OUTPUT);   
-}
-
-void loop() {
-  digitalWrite(9, HIGH);  
-
-  // Rotate left (approx. 90 degrees)
-  digitalWrite(2, HIGH);
-  digitalWrite(3, LOW);
-  delay(200);
-
-  // Stop
-  digitalWrite(2, LOW);
-  digitalWrite(3, LOW);
-  delay(6800);
-
-  // Rotate right (approx. 90 degrees)
-  digitalWrite(2, LOW);
-  digitalWrite(3, HIGH);
-  delay(200);
-
-  // Stop
-  digitalWrite(2, LOW);
-  digitalWrite(3, LOW);
-  delay(6800);
-}
-
-
 After the motor was working, I moved on to the second part of the assignment, which was to build a very rough prototype of my Pac-Man mechanism. Since this was only meant to test the movement idea, I kept it extremely simple. I cut a Pac-Man shape out of cardboard and attached it directly to the motor shaft using the hub provided by Professor Shiloh. 
 
 When the motor ran, the Pac-Man cutout rotated left and right. Even though this was not the final movement system, it successfully showed that the motor could animate the character. That was the main goal of the prototype.
@@ -176,3 +144,4 @@ The mechanism was very rough. The cardboard piece was not perfectly balanced, an
 
 This exercise made me realize how different physical design is from digital design. In programming, if something is slightly wrong, it usually still runs. With hardware, a single wrong wire or loose connection can stop everything. At the same time, it was rewarding to see the mechanism move, because it felt like the game idea was starting to become real instead of just something on a screen.
 
+![image](pacman.jpg)
