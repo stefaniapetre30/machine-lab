@@ -127,3 +127,52 @@ I also noticed that it will be hard to operate more than one motor at once, like
 This makes the project more difficult, but it also makes it more entertaining. I now realize that this project isn't just about developing a game; it's also about figuring things out, building things, and testing them. Before I add any more features, I need to focus on understanding how to use motors and design a movement system that works.
 
 This makes me think that Pac-Man is more complicated than I imagined at first. It also makes me feel more ready to start creating.
+
+JOURNAL HOMEWORK - 9/02/2026
+
+For this assignment, I worked on getting a DC motor to run using an Arduino and a motor driver. At first, it seemed like it would be very straightforward, because the code was simple and everything powered on correctly. However, when I uploaded the program, the motor did not move at all.
+
+This forced me to slow down and check every part of the system. I realized that in physical computing, even small wiring mistakes can completely stop a project from working. The first issue was that the Arduino pins I used in the wiring did not match the pins in the code. I also needed to make sure the enable pin on the motor driver was set HIGH, otherwise the motor channel stays disabled. After fixing these issues and double-checking the ground connection between the Arduino and the motor driver, the motor finally started spinning. Seeing it move for the first time was satisfying because it confirmed that the whole control system was working correctly.
+
+The final wiring was simple: pins 2 and 3 controlled the direction, pin 9 enabled the motor, and the Arduino shared a ground with the motor driver. The motor itself was powered by an external 12V supply and connected to the output terminals of the driver.
+
+Code used
+void setup() {
+  pinMode(2, OUTPUT);   
+  pinMode(3, OUTPUT);   
+  pinMode(9, OUTPUT);   
+}
+
+void loop() {
+  digitalWrite(9, HIGH);  
+
+  // Rotate left (approx. 90 degrees)
+  digitalWrite(2, HIGH);
+  digitalWrite(3, LOW);
+  delay(200);
+
+  // Stop
+  digitalWrite(2, LOW);
+  digitalWrite(3, LOW);
+  delay(6800);
+
+  // Rotate right (approx. 90 degrees)
+  digitalWrite(2, LOW);
+  digitalWrite(3, HIGH);
+  delay(200);
+
+  // Stop
+  digitalWrite(2, LOW);
+  digitalWrite(3, LOW);
+  delay(6800);
+}
+
+
+After the motor was working, I moved on to the second part of the assignment, which was to build a very rough prototype of my Pac-Man mechanism. Since this was only meant to test the movement idea, I kept it extremely simple. I cut a Pac-Man shape out of cardboard and attached it directly to the motor shaft using the hub provided by Professor Shiloh. 
+
+When the motor ran, the Pac-Man cutout rotated left and right. Even though this was not the final movement system, it successfully showed that the motor could animate the character. That was the main goal of the prototype.
+
+The mechanism was very rough. The cardboard piece was not perfectly balanced, and the motion was not very precise. But it helped me confirm that the motor can create visible movement, which is an important step toward building the full maze system. In the future, I would use a proper hub and a guided track so that Pac-Man moves through the maze instead of just spinning.
+
+This exercise made me realize how different physical design is from digital design. In programming, if something is slightly wrong, it usually still runs. With hardware, a single wrong wire or loose connection can stop everything. At the same time, it was rewarding to see the mechanism move, because it felt like the game idea was starting to become real instead of just something on a screen.
+
