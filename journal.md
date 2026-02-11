@@ -147,7 +147,9 @@ This exercise made me realize how different physical design is from digital desi
 ![image](pacman.jpg)
 
 JOURNAL HOMEWORK - 12/02/2026
-For this Thursday, I did not change anything in the code. Instead, I made a little mechanism from cardboard to keep the pacman in place because it was moving quite a lot and I was scared that it was going to fall off. I also used tape which was quite useful and made the mechanism even stronger. However, this is just a prototype. I don't think I will use tape for the final project.
+For this Thursday, I didn’t make any changes to the code. Instead, I focused on improving the physical part of my project. I created a small mechanism out of cardboard to help keep the Pacman figure in place, because it was moving around a lot and I was worried it might fall off. To make the structure more stable, I also used tape, which turned out to be very helpful and made the mechanism much stronger.
+
+Even though the tape worked well, this version is only a prototype. I don’t plan to use tape in the final project, because I want to find a more permanent and cleaner solution. This step was mainly to test my idea and see what works best before building the final version.
 
 ![image](IMG_1302.jpg)
 
