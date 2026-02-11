@@ -145,3 +145,10 @@ The mechanism was very rough. The cardboard piece was not perfectly balanced, an
 This exercise made me realize how different physical design is from digital design. In programming, if something is slightly wrong, it usually still runs. With hardware, a single wrong wire or loose connection can stop everything. At the same time, it was rewarding to see the mechanism move, because it felt like the game idea was starting to become real instead of just something on a screen.
 
 ![image](pacman.jpg)
+
+JOURNAL HOMEWORK - 12/02/2026
+For this Thursday, I did not change anything in the code. Instead, I made a little mechanism from cardboard to keep the pacman in place because it was moving quite a lot and I was scared that it was going to fall off. I also used tape which was quite useful and made the mechanism even stronger. However, this is just a prototype. I don't think I will use tape for the final project.
+
+![image](IMG_1302.jpg)
+
+![image](IMG_1303.jpg)
