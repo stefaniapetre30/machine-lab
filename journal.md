@@ -159,5 +159,6 @@ JOURNAL HOMEWORK - 17/02/2026
 
 For the Minecraft project, we began testing the motors needed to create the TNT mechanism. I cut out the prototype and connected it to the servo motor. I then started coding it using Arduino, but it wasn’t working as expected. I had to leave the lab because of an event, so I asked Rashed to continue working on it. As he later explained, the issue was caused by the jumper wires. When something doesn’t work, I usually assume the problem is in the code, but sometimes the issue is actually with the wiring itself.
 
-![image](pic1.jpg)
-![image](pic2.jpg)
+![image](pic1.jpeg)
+
+![image](pic2.jpeg)
