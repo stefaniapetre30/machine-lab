@@ -165,23 +165,23 @@ For the Minecraft project, we began testing the motors needed to create the TNT 
 
 JOURNAL ENTRY (ONLINE EDITION)
 
-March 24, 2025
+March 24, 2026
 Switching to individual projects
 Today our class transitioned from group work to individual projects. I have been thinking about what I want to make and I keep coming back to the same idea: a painted canvas with a puppet attached to it, and small motors behind the canvas that make the puppet's hands and legs move. This would let me combine two things I love — painting, which I have been doing since I was three years old, and technology.
 The plan is to use one Arduino (the one from my kit at home) to control the motors. I want the canvas itself to be part of the artwork, not just a background — maybe painted hands reaching out, so the puppet feels like it is emerging from the painting.
 
-April 2, 2025
+April 2, 2026
 First individual meeting
 Had my first one-on-one meeting today to discuss the concept. I presented my idea: a painted canvas with a puppet hot-glued onto it, and servo motors mounted behind the canvas to animate the puppet's limbs. Prof. Shiloh was enthusiastic about the direction and we agreed to move forward.
 The biggest takeaway: Prof. Shiloh challenged me to use 18 motors in the project — the maximum number of servos an Arduino can control. This is a big jump from what I originally imagined, but it opens up exciting possibilities. Instead of just animating the hands and feet, I could have every joint moving, give the puppet expressive fingers, or even have elements of the painted background move too.
 Next steps: sketch the puppet and map out which joints get a motor, research small servo options that fit behind the canvas, plan the painting composition, and figure out how to power 18 servos without overloading the Arduino.
 
-April 5, 2025
+April 5, 2026
 Sketching the puppet and planning the 18 motors
 Spent time today sketching the puppet and thinking through the 18-motor challenge. My current breakdown: 2 shoulders, 2 elbows, 4 wrist/hand positions, 2 hips, 2 knees, 2 ankles, 1 neck, 1 jaw, 2 fingers — that gets me to exactly 18.
 Also started thinking more seriously about the painting. I want large painted hands in the background, some open and some reaching, so the painted world and the physical puppet feel like part of the same image. Acrylics in earthy tones with some gold accents. Important technical note: 18 servos draw too much current to run off the Arduino's 5V pin, so I will need a separate power supply for the servos and use the Arduino only for the signal lines.
 
-April 8, 2025
+April 8, 2026
 Starting the canvas and first electronics test
 Began painting the canvas today, working on the base layer first in ochre and burnt sienna. I sketched the large hands in pencil first to know where to leave space for the puppet's body.
 Also did a quick breadboard test with three servo motors and the Arduino to confirm the wiring works before building the full setup. All three responded correctly using the Servo library in Arduino IDE. Next step is testing more servos on the same power rail to check for voltage drop.
