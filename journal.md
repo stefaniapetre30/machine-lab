@@ -223,11 +223,11 @@ Next, I went looking for a puppet. After asking around and visiting several toy 
 
 With the puppet secured, I moved on to constructing the frame that would house the Arduino and hold the motor and puppet in place. I sourced some cardboard and began cutting it to size.
 
-![image](carton.HEIC)
+![image](carton.jpg)
 
 From there, I used a glue gun and tape to assemble everything, which turned out to be the most challenging part of the entire project. Cutting cardboard cleanly and precisely is genuinely difficult, and my shaky hands did not make it any easier. Still, it came together in the end. Here's a close-up of the frame as it came together with the painting:
 
-![image](rama.HEIC)
+![image](rama.jpg)
 
 **Attaching the Puppet**
 
