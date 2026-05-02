@@ -195,3 +195,46 @@ The bigger decision we made today was about placement. We agreed that the sensor
 I also mentioned to Michael that progress on the physical build has been slightly delayed because I am still waiting to receive the puppet and the servo motor. Once those arrive I will be able to start testing the actual assembly, attaching the servo behind the canvas and seeing how the puppet responds to the movement. I am eager to get my hands on both so I can move from the planning stage into actually building and testing. In the meantime I have continued working on the painting and thinking through the wiring and sensor placement so that once the parts arrive I can hit the ground running.
 Next steps agreed upon in this meeting: Source or build a small frame to mount the sensor on top of the canvas setup. Test the sensor at that angle to confirm the detection range and accuracy once the servo motor and puppet arrive. Begin thinking about how the motor response will be triggered by the sensor input, what movement happens, and how dramatic it should be.
 (Update: the motors and the puppet have arrived)
+
+
+
+**May 2nd, 2026 — UPDATE**
+
+The project is finally complete, and I'd like to walk you through the entire process step by step.
+
+**MATERIALS USED:**
+
+Canvas, tempera paints, a puppet, a servo motor, an Arduino Uno, Dupont wires, cardboard, tape, and a glue gun.
+
+**Painting the Canvas**
+
+I started with the canvas, aiming for a dramatic, stage-like atmosphere. To achieve this, I worked with multiple shades of red, black, and gold, layering them until the composition felt right. Here's a photo of the canvas mid-progress:
+
+![image](canvas.jpg)
+
+
+**Finding the Puppet**
+
+Next, I went looking for a puppet. After asking around and visiting several toy stores without any luck, I eventually managed to get one through someone I knew personally. It took longer than expected, but it was worth the search. Here's what it looks like:
+
+![image](marioneta.jpg)
+
+**Building the Frame**
+
+With the puppet secured, I moved on to constructing the frame that would house the Arduino and hold the motor and puppet in place. I sourced some cardboard and began cutting it to size.
+
+![image](carton.HEIC)
+
+From there, I used a glue gun and tape to assemble everything, which turned out to be the most challenging part of the entire project. Cutting cardboard cleanly and precisely is genuinely difficult, and my shaky hands did not make it any easier. Still, it came together in the end. Here's a close-up of the frame as it came together with the painting:
+
+![image](rama.HEIC)
+
+**Attaching the Puppet**
+
+The final step was mounting the puppet onto the frame. I cut a hole along the lower edge of the top section so the wires could run from the back to the front. One problem I hadn't anticipated was the servo motor's range of motion. If placed inside the frame, the wooden part of the puppet would have struck the canvas, since there wasn't enough clearance for a full 360-degree rotation. The solution was to mount the motor on the front of the frame instead, while keeping the Arduino tucked in the back. It was a small but important adjustment that made everything work. Once it was all taped into place, this was the result:
+
+
+
+**Closing Thoughts**
+
+This was one of the most enjoyable projects I've worked on. Having the creative freedom to take it in any direction led me toward something more artistic, while still fulfilling the mechanical requirements. I'm genuinely happy with how it turned out. Here's the final result:
