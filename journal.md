@@ -238,3 +238,7 @@ The final step was mounting the puppet onto the frame. I cut a hole along the lo
 **Closing Thoughts**
 
 This was one of the most enjoyable projects I've worked on. Having the creative freedom to take it in any direction led me toward something more artistic, while still fulfilling the mechanical requirements. I'm genuinely happy with how it turned out. Here's the final result:
+
+![image](final1.jpg)
+![image](final2.jpg)
+![image](final3.jpg)
