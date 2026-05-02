@@ -210,7 +210,7 @@ Canvas, tempera paints, a puppet, a servo motor, an Arduino Uno, Dupont wires, c
 
 I started with the canvas, aiming for a dramatic, stage-like atmosphere. To achieve this, I worked with multiple shades of red, black, and gold, layering them until the composition felt right. Here's a photo of the canvas mid-progress:
 
-![image](canvas.jpg)
+![image](canvas.JPG)
 
 
 **Finding the Puppet**
