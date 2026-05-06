@@ -242,3 +242,8 @@ This was one of the most enjoyable projects I've worked on. Having the creative 
 ![image](final1.jpg)
 ![image](final2.jpg)
 ![image](final3.jpg)
+
+SHORT UPDATE: 
+
+Right before I met with Professor Shiloh, the motor stopped working. What a timing! I took the motor down and realized that I needed a little bit more stability for it, so I ended up using 2 small pieces of wood and put the motor in the middle, taped it again, and voila!
+You never know what to expect with machines :)
